@@ -79,4 +79,13 @@ public class User {
     public void setRegion(String region) {
         this.region = region;
     }
+
+    public User(Long id, String name, String nickname, int credits, String gender, String region) {
+        this.id = id;
+        this.name = name;
+        this.nickname = nickname;
+        this.credits = credits;
+        this.gender = gender;
+        this.region = region;
+    }
 }
