@@ -88,4 +88,7 @@ public class User {
         this.gender = gender;
         this.region = region;
     }
+
+    public User() {
+    }
 }
